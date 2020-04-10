@@ -1,2 +1,2 @@
-X=int(input());Y=int(input())
+X,Y=map(int,input().split())
 print(max(X,Y))
